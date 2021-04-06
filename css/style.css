@@ -374,6 +374,9 @@ h6 {
   margin: 0;
 }
 
+.nav-menu ul li a .fa{
+  margin-right: 40px;
+}
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
