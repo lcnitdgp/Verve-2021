@@ -13,6 +13,22 @@
 :root{
   --orange : #fb552f;
 }
+
+@font-face {
+	font-family: 'peaceSans';
+	src: 
+		local('Lovely-Font'),
+		url('../fonts/peace_sans.otf') 
+		format('opentype');
+}
+@font-face {
+	font-family: 'blazedFont';
+	src: 
+		local('Blazed-Font'),
+    url('../fonts/Blazed.ttf') 
+    format('truetype');
+}
+
 body {
   background: #fff;
   color: #2f3138;
@@ -404,6 +420,9 @@ h6 {
   position: relative;
 }
 
+#mobile-nav ul li :hover{
+  background-color: #ffffff;
+}
 #mobile-nav ul li a {
   color: #fff;
   font-size: 17px;
@@ -514,7 +533,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1739,4 +1758,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .text .type-time {
     font-size: 10px !important; 
   }
+}
+
+.title{
+	font-family: 'peaceSans';
+}
+.title span{
+  font-family : 'blazedFont';
 }
