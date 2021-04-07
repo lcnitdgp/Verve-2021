@@ -1045,6 +1045,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery {
   padding: 60px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 #gallery .owl-nav,
@@ -1096,24 +1098,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
+  padding: 10px;
 }
 
 #supporters .supporter-logo {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 1px solid #e0e5fa; */
+    /* border-bottom: 1px solid #e0e5fa; */
+    height: 200px;
+    width: 200px;
 }
 
 #supporters .supporter-logo:hover img {
@@ -1852,4 +1847,10 @@ section {
   color:white;
   font-size:17px;
   text-align: center;
+}
+
+.elem-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
