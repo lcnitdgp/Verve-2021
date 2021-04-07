@@ -13,6 +13,7 @@
 :root {
   --orange: #fb552f;
   --bg: #080b11;
+  --font-color : #fdece7;
 }
 
 @font-face {
@@ -699,15 +700,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: var(--font-color);
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: var(--font-color);
 }
 
 #about p {
