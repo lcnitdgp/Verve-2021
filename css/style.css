@@ -13,7 +13,7 @@
 :root {
   --orange: #fb552f;
   --bg: #080b11;
-  --font-color : #fdece7;
+  --font-color: #fdece7;
 }
 
 @font-face {
@@ -1773,12 +1773,12 @@ section {
 
 .mycard {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #0b1227;
   margin: 24px;
   padding: 16px;
   width: 312px;
   min-width: 288px;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 4px 5px 24px 0 rgb(251 85 46 / 95%);
   border-radius: 8px;
   transition: 0.4s;
 }
@@ -1812,6 +1812,8 @@ section {
   font-family: "DM Serif Display", serif;
   font-weight: 600;
   letter-spacing: 2px;
+  text-align: center;
+  color: white;
 }
 
 .mycard-content {
@@ -1819,6 +1821,35 @@ section {
   margin-bottom: 8px;
 }
 
-.events{
+.events {
   justify-content: center;
+}
+
+#venue .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: 1;
+  width: 100%;
+  color: #fff;
+  transition: 0.5s;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  text-decoration: none;
+  background: var(--orange);
+  text-align: center;
+}
+
+#venue .about-btn:hover {
+  background: #fff;
+  color: var(--orange);
+}
+.mycard-content{
+  color:white;
+  font-size:17px;
+  text-align: center;
 }
