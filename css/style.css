@@ -640,6 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation-delay: 0.8s;
   border: 2px solid var(--orange);
   text-decoration: none;
+   text-transform: uppercase;
 }
 
 #intro .about-btn:hover {
@@ -1422,6 +1423,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1514,6 +1516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1788,13 +1791,14 @@ section {
 }
 .mycard-image {
   width: 100%;
-  height: 256px;
+  height: 354px;
   border-radius: 8px;
   position: relative;
   transform: translateX(-32px);
-  box-shadow: 16px 4px 24px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 16px 4px 24px 0 rgb(0 0 0 / 20%);
   transition: 0.4s;
   object-fit: cover;
+  object-position: top;
 }
 
 .mycard-body {
