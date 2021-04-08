@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  var endDate = new Date(2021, 3, 9).getTime() / 1000;
+  var endDate = new Date(`Fri, 9 Apr 2021 12:30:00 GMT`).getTime() / 1000;
   var startDate = new Date(2021, 3, 1).getTime() / 1000;
   var nowDate = new Date().getTime() / 1000;
 
