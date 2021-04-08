@@ -695,6 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   left: 0;
   right: 0;
+  z-index: -1;
 }
 
 #about h2 {
@@ -1466,13 +1467,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid var(--orange);
+  /* border-bottom: 2px solid var(--orange); */
+  font-style: italic;
+  text-decoration: underline;
 }
 
 #footer .footer-top .footer-links {
