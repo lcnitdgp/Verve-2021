@@ -732,10 +732,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background-color : rgb(6 12 34 / 54%);
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: 0px;
   right: 0;
   text-align: center;
   padding-top: 10px;
@@ -764,13 +764,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#speakers .speaker .details h3:hover {
   color: var(--orange);
 }
 
-#speakers .speaker:hover .details {
-  bottom: 0;
-}
 
 #speakers-details {
   padding: 60px 0;
@@ -1853,4 +1850,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social-icons{
+  margin-bottom: 4px;
+}
+.social-icons a{
+  font-size: 20px;
+  padding: 3px;
+}
+
+.social-icons a:hover {
+  color: var(--orange) !important;
 }
