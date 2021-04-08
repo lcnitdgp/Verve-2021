@@ -640,7 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation-delay: 0.8s;
   border: 2px solid var(--orange);
   text-decoration: none;
-   text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #intro .about-btn:hover {
@@ -1827,7 +1827,7 @@ section {
 
 #venue .about-btn {
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -1842,6 +1842,7 @@ section {
   text-decoration: none;
   background: var(--orange);
   text-align: center;
+  text-transform: uppercase;
 }
 
 #venue .about-btn:hover {
